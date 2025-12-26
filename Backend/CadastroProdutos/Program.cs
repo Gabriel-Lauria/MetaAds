@@ -11,6 +11,13 @@ var builder = WebApplication.CreateBuilder(args);
 var jwtConfig = builder.Configuration.GetSection("Jwt");
 var key = Encoding.ASCII.GetBytes(jwtConfig["Key"]!);
 
+
+// Meta Ads
+builder.Services.AddHttpClient();
+builder.Services.AddScoped<MetaAdsService>();
+builder.Services.AddScoped<ClienteService>();
+
+
 // Services
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

@@ -3612,11 +3612,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriel Lauria\\Desktop\\backend\\Backend\\CadastroProdutos\\CadastroProdutos.csproj",
+      "projectUniqueName": "C:\\Users\\Gabriel Lauria\\Desktop\\MetaAds\\backend\\CadastroProdutos\\CadastroProdutos.csproj",
       "projectName": "CadastroProdutos",
-      "projectPath": "C:\\Users\\Gabriel Lauria\\Desktop\\backend\\Backend\\CadastroProdutos\\CadastroProdutos.csproj",
+      "projectPath": "C:\\Users\\Gabriel Lauria\\Desktop\\MetaAds\\backend\\CadastroProdutos\\CadastroProdutos.csproj",
       "packagesPath": "C:\\Users\\Gabriel Lauria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabriel Lauria\\Desktop\\backend\\Backend\\CadastroProdutos\\obj\\",
+      "outputPath": "C:\\Users\\Gabriel Lauria\\Desktop\\MetaAds\\backend\\CadastroProdutos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

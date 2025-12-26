@@ -11,5 +11,7 @@ namespace CadastroProdutos.Database
         }
 
         public DbSet<Usuario> Usuarios { get; set; } = null!;
+        public DbSet<Cliente> Clientes => Set<Cliente>();
+        public DbSet<MetaIntegration> MetaIntegrations => Set<MetaIntegration>();
     }
 }
