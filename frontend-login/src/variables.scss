@@ -1,0 +1,7 @@
+:root {
+  --sidebar-collapsed: 80px;
+  --sidebar-expanded: 260px;
+
+  /* estado atual */
+  --sidebar-current: var(--sidebar-collapsed);
+}

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gabriel Lauria\\Desktop\\backend\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F45DBF19-9417-4332-BBDD-D54D4EE7F88D}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\gabriel lauria\\desktop\\backend\\backend\\cadastroprodutos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F45DBF19-9417-4332-BBDD-D54D4EE7F88D}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F45DBF19-9417-4332-BBDD-D54D4EE7F88D}|CadastroProdutos\\CadastroProdutos.csproj|c:\\users\\gabriel lauria\\desktop\\backend\\backend\\cadastroprodutos\\cadastroprodutos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F45DBF19-9417-4332-BBDD-D54D4EE7F88D}|CadastroProdutos\\CadastroProdutos.csproj|solutionrelative:cadastroprodutos\\cadastroprodutos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Lauria\\Desktop\\backend\\Backend\\CadastroProdutos\\Program.cs",
+              "RelativeDocumentMoniker": "CadastroProdutos\\Program.cs",
+              "ToolTip": "C:\\Users\\Gabriel Lauria\\Desktop\\backend\\Backend\\CadastroProdutos\\Program.cs",
+              "RelativeToolTip": "CadastroProdutos\\Program.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAcwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T18:44:26.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CadastroProdutos",
+              "DocumentMoniker": "C:\\Users\\Gabriel Lauria\\Desktop\\backend\\Backend\\CadastroProdutos\\CadastroProdutos.csproj",
+              "RelativeDocumentMoniker": "CadastroProdutos\\CadastroProdutos.csproj",
+              "ToolTip": "C:\\Users\\Gabriel Lauria\\Desktop\\backend\\Backend\\CadastroProdutos\\CadastroProdutos.csproj",
+              "RelativeToolTip": "CadastroProdutos\\CadastroProdutos.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-23T18:44:19.074Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

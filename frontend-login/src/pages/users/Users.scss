@@ -1,0 +1,88 @@
+@use '../../../src/variables.scss';
+
+.users-page {
+  padding: 30px;
+  color: #fff;
+  min-height: 100vh;
+
+  margin-left: var(--sidebar-collapsed);
+  transition: margin-left 0.3s ease;
+}
+
+/* 🔑 "if": quando a sidebar estiver expandida */
+body:has(.sidebar:hover) .users-page {
+  margin-left: var(--sidebar-expanded);
+}
+
+
+/* HEADER */
+.users-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+  h2 {
+    font-size: 22px;
+    color: #000;
+  }
+
+  .primary {
+    background: #135bec;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .primary:hover {
+    background: #0f49c2;
+  }
+}
+
+/* TABLE */
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #111722;
+  border-radius: 12px;
+  overflow: hidden;
+
+  th,
+  td {
+    padding: 14px 16px;
+  }
+
+  th {
+    background: #1c2333;
+    color: #8b93a7;
+  }
+
+  tr {
+    border-bottom: 1px solid #1c2333;
+  }
+
+  td {
+    color: #fff;
+  }
+
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+
+  button {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+  }
+
+  .danger {
+    background: #e54848;
+    color: #fff;
+  }
+}
