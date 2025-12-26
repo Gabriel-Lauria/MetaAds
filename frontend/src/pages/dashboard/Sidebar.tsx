@@ -44,7 +44,7 @@ const Sidebar: React.FC = () => {
           {!collapsed && <span className="nav-text">Usuários</span>}
         </Link>
 
-        <Link to="/users">
+        <Link to="/clients">
           <img src={usersIcon} alt="Clientes" className="nav-icon" />
           {!collapsed && <span className="nav-text">Clientes</span>}
         </Link>

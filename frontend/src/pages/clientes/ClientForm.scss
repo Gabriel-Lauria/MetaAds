@@ -1,0 +1,36 @@
+@use '../../../src/variables.scss';
+.client-form {
+  padding: 30px;
+  color: #fff;
+  min-height: 100vh;
+
+  margin-left: var(--sidebar-collapsed);
+  transition: margin-left 0.3s ease;
+}
+
+/* 🔑 "if": quando a sidebar estiver expandida */
+body:has(.sidebar:hover) .users-page {
+  margin-left: var(--sidebar-expanded);
+}
+  input {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: none;
+    background-color: #135bec;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    background-color: #0f49c2;
+  }
+

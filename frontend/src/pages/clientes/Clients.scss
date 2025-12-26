@@ -1,0 +1,74 @@
+@use '../../../src/variables.scss';
+
+.clients-page {
+    padding: 30px;
+    color: #fff;
+    min-height: 100vh;
+
+    margin-left: var(--sidebar-collapsed);
+    transition: margin-left 0.3s ease;
+}
+
+/* Quando a sidebar estiver expandida */
+body:has(.sidebar:hover) .clients-page {
+    margin-left: var(--sidebar-expanded);
+}
+
+.clients-page h1 {
+    color: #000;
+}
+
+.clients-page ul {
+    padding-top: 10px;
+    color: #000;
+}
+
+.clients-page ul li {
+    padding-top: 30px;
+
+}
+
+/* Botões */
+.primary {
+    background: #135bec;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.primary:hover {
+    background: #0f49c2;
+}
+
+.excluir {
+    background: red;
+    color: #fff;
+    margin-left: 10px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Lista de clientes */
+.clients-page ul {
+    list-style: none;
+    padding: 0;
+}
+
+.clients-page li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cliente-actions {
+    display: flex;
+    gap: 10px;
+}

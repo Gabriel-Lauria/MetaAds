@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CadastroProdutos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e91e0d89972e5ab19b196127bd571d91ae369432")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3f736c5e27c0dd69ee781abb0e833570c64a73d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CadastroProdutos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CadastroProdutos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

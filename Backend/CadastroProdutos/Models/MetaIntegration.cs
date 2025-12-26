@@ -3,14 +3,12 @@ namespace CadastroProdutos.Models;
 public class MetaIntegration
 {
     public int Id { get; set; }
+    public string AdAccountId { get; set; } = string.Empty;
+    public string AccessToken { get; set; } = string.Empty;
+    public DateTime? ExpiresAt { get; set; }
     public int ClienteId { get; set; }
-    public string AdAccountId { get; set; } = null!;
-    public string AccessTokenEncrypted { get; set; } = null!;
-    public DateTime TokenExpiresAt { get; set; }
-    public string AppId { get; set; } = null!;
-    public string PageId { get; set; } = null!;
-    public bool Ativo { get; set; } = true;
+    public Cliente Cliente { get; set; } = null!;
 
     // Relação inversa
-    public Cliente Cliente { get; set; } = null!;
+    
 }
